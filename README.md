@@ -10,19 +10,19 @@ Things you may want to cover:
   2. ruby 2.3.3
 
 * System dependencies
+check this 
+ http://www.htmltohaml.com/
+* Configuration
 
  1. add below line to # config/environments/development.rb
     * to reduce the final code by removing the spaces and line breaks
  ```
 Rails . application . configure do
   # ...
-  Haml :: Template . options [: remove_whitespace ]   =   true
+    Haml::Template.options[:remove_whitespace ] = true
 end
 
  ```
-
-* Configuration
-
 * Database creation
 
 * Database initialization

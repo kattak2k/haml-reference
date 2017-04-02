@@ -53,6 +53,6 @@ Rails.application.configure do
   config.file_watcher = ActiveSupport::EventedFileUpdateChecker
 
   #Ins start RK01
-    Haml :: Template . options [: remove_whitespace ]   =   true
+    Haml::Template.options[:remove_whitespace ] = true
   #Ins end RK01
 end
